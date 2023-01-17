@@ -8,6 +8,7 @@ type App struct {
 }
 
 func (re App) run() {
+	fmt.Println("BEGIN")
 	// load data file
 	// into data structure
 	// select UI
@@ -15,4 +16,5 @@ func (re App) run() {
 	fmt.Println("Program Name: ", Last(p))
 	// check for script
 	// run through modules
+	fmt.Println("END")
 }
