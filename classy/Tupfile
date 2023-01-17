@@ -1,0 +1,2 @@
+GO=/bin/go
+: *.go |> $(GO) build -o %o %f |> app

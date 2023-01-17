@@ -1,2 +1,4 @@
 *.sum
 hi/hi
+.tup
+build-*/
