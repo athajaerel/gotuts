@@ -1,0 +1,3 @@
+GO=/bin/go
+APP=$(basename $(pwd))
+: *.go |> $(GO) build -o %o %f |> $(APP)
