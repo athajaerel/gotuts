@@ -7,16 +7,16 @@ type Control struct {
 
 type TestData struct {
 	a string
-	b int
+	b int32
 	c string
-	d int
+	d int32
 }
 
 func (re TestData) serialise(s Serialiser) {
-	s.ios(re.a)
-	s.ioi(re.b)
-	s.ios(re.c)
-	s.ioi(re.d)
+	s.ios(&re.a)
+	s.ioi32(&re.b)
+	s.ios(&re.c)
+	s.ioi32(&re.d)
 }
 
 func (re Control) run() {
