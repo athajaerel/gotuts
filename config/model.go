@@ -19,5 +19,5 @@ func (re Model) end() {
 
 func (re Model) getProgramName() string {
 	p := strings.Split(re.prog, "/")
-	return LastItemOfArray(p)
+	return LastItemOfStringArray(p)
 }

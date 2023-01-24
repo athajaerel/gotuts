@@ -1,3 +1,3 @@
-module example/mvc/v2
+module example/config/v2
 
 go 1.15
