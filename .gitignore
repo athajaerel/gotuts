@@ -6,3 +6,4 @@ classy/classy
 mvc/mvc
 config/config
 data.bin
+*.sh
